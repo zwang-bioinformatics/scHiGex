@@ -7,7 +7,7 @@ This repository includes code and a pre-trained model of scHiGex for single-cell
 ## Instructions
 
 ### Python Environment
-The code was tested on Python 3.10.4. The conda environment is shared via `environment.yml`, and for dnabert2, the environment is shared via `environment_dnabert2.yml`.
+The code was tested on Python 3.10.4. The conda environment is shared via `env/environment.yml`, and for dnabert2, the environment is shared via `env/environment_dnabert2.yml`.
 
 ### Dataset
 The dataset used for training is from the [HiRES](    https://www.science.org/doi/10.1126/science.adg3797) experiment. The dataset is available at [https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223917](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE223917).
@@ -19,7 +19,7 @@ Files to be placed in the `assets` directory are as follows:
     - [mm10_100_segments_browser.bed](https://public.hoffman2.idre.ucla.edu/ernst/2K9RS//full_stack/full_stack_annotation_public_release/mm10/mm10_100_segments_browser.bed.gz)
     - rna_umicount.tsv - [embryo](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE223917&format=file&file=GSE223917%5FHiRES%5Femb%2Erna%2Eumicount%2Etsv%2Egz)
     - metadata.xlsx - [embryo](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE223917&format=file&file=GSE223917%5FHiRES%5Femb%5Fmetadata%2Exlsx)
-    - pairs/ (Required for training)
+    - pairs/ (Only for training)
         - [Hi-C pairs files](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE223917&format=file)
 
 
