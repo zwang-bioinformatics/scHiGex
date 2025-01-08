@@ -1,5 +1,7 @@
 # scHiGex: predicting single-cell gene expression based on single-cell Hi-C data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14613245.svg)](https://doi.org/10.5281/zenodo.14613245)
+
 ![Architecture](architecture.jpg)
 
 This repository includes code and a pre-trained model of scHiGex for single-cell gene expression prediction.
