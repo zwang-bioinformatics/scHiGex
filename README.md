@@ -59,18 +59,11 @@ To predict gene expression levels using the trained model for mm10,
 
  If you want to use your own trained model using scHiGex architecture, you need to point to right model file and node_embeddings.
 
-<hr>
+
 
 > The scripts were desinged to be compatible with the HiRES data for the experiment. The code can be easily modified to work according to the user's purpose.
 
 
-### Citation
-Please cite the following paper:
-``` 
-@article{scHiGex,
-  title={scHiGex: predicting single-cell gene expression based on single-cell Hi-C data},
-  author={Bishal Shrestha, Andrew Jordan Siciliano, Hao Zhu, Tong Liu, Zheng Wang},
-  journal={},
-  year={2024}
-}
-```
+
+## Citation
+Bishal Shrestha, Andrew Jordan Siciliano, Hao Zhu, Tong Liu, Zheng Wang, [scHiGex: predicting single-cell gene expression based on single-cell Hi-C data](https://doi.org/10.1093/nargab/lqaf002), NAR Genomics and Bioinformatics, Volume 7, Issue 1, March 2025, lqaf002, [10.1093/nargab/lqaf002](https://doi.org/10.1093/nargab/lqaf002)
